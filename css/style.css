@@ -1,0 +1,454 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    letter-spacing: 5;
+    background-color: #D2D0CC;
+}
+h1, h2, h3 {
+    letter-spacing: 1px;
+}
+nav {
+    background-color: black;
+    color: white;
+    width: 100%;
+    overflow: hidden;
+    /* position: fixed; */
+    /* top: 0px; */
+    /* z-index: 1; */
+}
+nav i {
+    padding: 10px 15px;
+    /* margin: 0px 5px; */
+    cursor: pointer;
+}
+.fa-search {
+    float: right;
+}
+nav i:hover{
+    background-color: #bebebd;
+    color: black;
+}
+header {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+header h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+header h5 {
+    font-size: 16px;
+}
+header h5 span {
+    background-color: black;
+    color: white;
+    padding: 0px 5px;
+}
+main {
+    position: relative;
+    
+}
+main img {
+    width: 100%;
+}
+main .textbut {
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    padding: 10px 25px;
+    color: #dcdad7;
+    
+}
+main div h1 {
+    font-size: 36px;
+    height: 0px;
+}
+main div h2 {
+    font-size: 64px;
+    height: 50px;
+}
+main div button {
+    border: none;
+    padding: 15px 17px;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.493);
+}
+main div button:hover{
+    background-color: rgba(255, 255, 255, 0.842);
+}
+article {
+    color: #181a1b;
+    background-color: rgb(236, 236, 236);
+    margin: 35px;
+    width: 65%;
+    border: none;
+    position: relative;
+    float: left;
+}
+article span {
+    background: none;
+    color: #8f8f8f;
+    font-size: 16px;
+    padding-left: 5px;
+}
+article .title1 {
+    padding: 16px;
+}
+article div .center {
+    text-align: center;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+article div .img1 {
+    width: 100%;
+}
+article div p {
+    color: #181a1b;
+    font-size: 15px;
+}
+article .title1 .button {
+    margin: 25px 15px;
+    display: inline-block;
+    font-weight: 400;
+}
+article .title1 .like {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    background: none;
+    font-size: 16px;
+}
+article .title1 .like .fa-thumbs-up{
+    margin-left: 5px;
+}
+article .title1 .like:hover{
+    background-color: #ccc;
+
+}
+article .title1 .Replies {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    bottom: 16%;
+    right: 30px;
+    /* float: right; */
+}
+article .title1 .Replies span {
+    margin-left: 10px;
+    padding: 4px 6px;
+    background-color:white ;
+    color: black;
+}
+article .title1 .Replies:hover{
+    background-color: #ccc;
+    color: black;
+}
+.titleimg {
+    width: 100%;
+}
+.titleimg .imgftr {
+    width: 10%;
+    float: left;
+    padding: 20px;
+}
+
+.titleftr {
+    display: inline-block;
+    width: auto;
+    padding-left: 20px;
+    margin-top: 25px;
+}
+.titleftr .p1ftr {
+    font-size: 20px;
+}
+.titleftr .p1ftr .spanftr {
+    background: none;
+    color: #8f8f8f;
+}
+.titleftr .p2ftr {
+    font-size: 18px;
+    font-weight: 400;
+}
+article .title1 .Replies1 {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    bottom: 2%;
+    right: 30px;
+    /* float: right; */
+}
+article .title1 .Replies1 span {
+    margin-left: 5px;
+    padding: 4px 6px;
+    background-color:white ;
+    color: black;
+}
+article .title1 .Replies1:hover{
+    background-color: #ccc;
+    color: black;
+}
+aside {
+    float: right;
+    width: 30%;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+aside .aside1{
+    float: right;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    
+}
+aside .aside1 img {
+    width: 100%;
+}
+aside .aside1 .p {
+    padding: 10px;
+}
+aside .aside1 .p h2 {
+    margin-top: -10px;
+}
+aside .aside2{
+    width: 100%;
+    float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+    background-color: #f9f9f9;
+    color: white;
+    
+}
+aside .aside2 h2 {
+    margin: 0px;
+    background-color: black ;
+    color: white;
+    padding: 10px;
+}
+aside .aside2 .imgaside1 {
+    width: 100%;
+    height: 100%;
+    color: black;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+}
+aside .aside2 .imgaside {
+    width: 13%;
+    float: left;
+    margin-top: 0px;
+    padding: 10px 10px;
+}
+aside .aside2 .imgaside1 .p1 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+aside .aside2 .imgaside1 .p2 {
+    margin-top: -10px;
+}
+aside .aside2 .imgaside1:hover{
+    background-color: #ccc;
+} 
+aside .aside3{
+    width: 100%;
+    float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+    background-color: #f9f9f9;
+    color: white;
+    
+}
+aside .aside3 h2 {
+    margin: 0px;
+    background-color: black ;
+    color: white;
+    padding: 10px;
+}
+aside .aside3 .empty {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+aside .aside3 .empty .emptyp {
+    padding: 100px ;
+    background-color: #eee;
+
+}
+aside .aside4{
+    width: 100%;
+    float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+    background-color: #f9f9f9;
+    color: white;
+    
+}
+aside .aside4 h2 {
+    margin: 0px;
+    background-color: black ;
+    color: white;
+    padding: 10px;
+}
+aside .aside4 .div1 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+aside .aside4 .div1 span {
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: black;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 11px;
+}
+aside .aside4 .div1 .black {
+    background-color: black;
+    color: white;
+}
+aside .aside5{
+    width: 100%;
+    float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+    background-color: #f9f9f9;
+    color: white;
+    
+}
+aside .aside5 h2 {
+    margin: 0px;
+    background-color: black ;
+    color: white;
+    padding: 10px;
+}
+aside .aside5 .img4 {
+    width: 100%;
+    padding: 10px;
+}
+aside .aside5 .img4 img {
+    width: 47%;
+}
+aside .aside6{
+    width: 100%;
+    float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+    background-color: #f9f9f9;
+    color: white;
+    
+}
+aside .aside6 h2 {
+    margin: 0px;
+    background-color: black ;
+    color: white;
+    padding: 10px;
+}
+aside .aside6 .iconflm {
+    padding: 10px;
+    color: black;
+    font-size: 25px;
+}
+aside .aside6 .iconflm .fa-facebook-square:hover{
+    opacity: 0.60;
+}
+aside .aside6 .iconflm .fa-instagram:hover{
+    opacity: 0.60;
+}
+aside .aside6 .iconflm .fa-snapchat:hover{
+    opacity: 0.60;
+}
+aside .aside6 .iconflm .fa-pinterest-p:hover{
+    opacity: 0.60;
+}
+aside .aside6 .iconflm .fa-twitter:hover{
+    opacity: 0.60;
+}
+aside .aside6 .iconflm .fa-linkedin-in:hover{
+    opacity: 0.60;
+}
+aside .aside7{
+    width: 100%;
+    float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+    background-color: #f9f9f9;
+    color: black;
+    
+}
+aside .aside7 h2 {
+    margin: 0px;
+    background-color: black ;
+    color: white;
+    padding: 10px;
+}
+aside .aside7 p {
+    padding: 10px;
+}
+aside .aside7 #email {
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    font-size: 16px;
+
+}
+aside .aside7 .Subscribe {
+    margin: 10px;
+    padding: 10px;
+    width: 95%;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+aside .aside7 .Subscribe:hover{
+    background-color: #ccc;
+    color: black;
+}
+.cleare {
+    content: '';
+    clear: both;
+}
+footer {
+    padding: 45px;
+    background-color: #5D6468;
+    font-family: 'Open Sans', sans-serif;
+    height: 100px;
+    
+}
+footer button {
+    border: none;
+    padding: 15px 18px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+footer button i {
+    padding-right: 10px;
+    cursor: pointer;
+}
+footer p {
+    color: white;
+}
+footer p a {
+    color: white;
+}
+footer button:hover{
+    background-color: #b8b4ae;
+    color: black;
+}
